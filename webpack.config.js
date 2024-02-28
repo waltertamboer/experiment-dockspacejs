@@ -1,14 +1,14 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/js/application.ts',
+    entry: './public/js/application.ts',
     mode: 'production',
     target: ['web', 'es5'],
     plugins: [],
     module: {
         rules: [
             {
-                test: /.\/src\/.+\.tsx?$/,
+                test: /.\/public\/.+\.tsx?$/,
                 use: [
                     {
                         loader: 'ts-loader',

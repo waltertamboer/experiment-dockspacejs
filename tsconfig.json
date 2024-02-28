@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "outDir": "./public/js/",
         "sourceMap": true,
         "declaration": false,
         "noImplicitAny": true,
@@ -14,6 +13,6 @@
         "strictNullChecks": true,
     },
     "include": [
-        "src/**/*",
+        "public/js/application.ts",
     ]
 }
