@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "@waltertamboer/dockspace-js": "^0.0.10"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.3.3",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.2"
+    },
+    "scripts": {
+        "build": "webpack -c webpack.config.js",
+        "serve": "webpack serve -c webpack.config.js",
+        "watch": "webpack watch -c webpack.config.js"
+    }
+}

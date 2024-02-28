@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+#container {
+    height: 95vh;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
